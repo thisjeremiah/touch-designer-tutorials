@@ -1,2 +1,4 @@
-# touch-designer-tutorials
-TouchDesigner Tutorials
+# TouchDesigner Tutorials
+
+## Lessons
+  - Lesson 1 - Introduction

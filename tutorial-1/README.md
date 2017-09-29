@@ -26,12 +26,13 @@
 - **CHOPs** are numerical operators. They are used to dynamically parameterize your application.
 - **MATs** are material operators. They are used to colorize and texturize geometries.
 - **SOPs** are surface operators. They create and modify geometries. They require Light, Camera, and Render OPs to be rendered.
-- **DATs** are text elements. Text can be simple, in tabular form. Python scripts are stored in "Text" DATs.
+- **DATs** are text elements. Text can be simple or in tabular form. Python scripts are stored in "Text" DATs.
 
 ## Converting OPs
 - Use a **"CHOP to" TOP** to convert a CHOP to a TOP
-- Use a **"DAT to" CHOP** to convert a DAT to a CHOP
+- Use a **"TOP to" CHOP** to convert a TOP to a CHOP
 - Use a **"CHOP to" DAT** to convert a CHOP to a DAT
+- Use a **"DAT to" CHOP** to convert a DAT to a CHOP
 
 Conversion Model:
 **TOP** <-> **CHOP** <-> **DAT**
@@ -42,13 +43,13 @@ Conversion Model:
 - **C++** code can be used to create low-level computing operators.
 
 ## Inputs
-- **Sensors data** such as Microsoft Kinect, HTC Vive, and Video Inputs, or mouse and keyboard
+- **Sensor data** such as Microsoft Kinect, HTC Vive, and Video Inputs, or mouse and keyboard
 - **Network data**  such as RSS or API endpoints or local streams
 
 ## Outputs
-**Real-time graphics** are the most conventional output from TouchDesigner, but TouchDesigner can also be used for streaming data, creating and exporting geometries, or rendering video.
+Real-time graphics are the most conventional output from TouchDesigner, but TouchDesigner can also be used for streaming data, creating and exporting geometries, or rendering video.
 
 ## Helpful Links
-[TouchDesigner Wiki](http://derivative.ca/wiki099/index.php?title=Main_Page "Wiki")
-[TouchDesigner Forum](https://www.derivative.ca/Forum/ "Forum")
-[TouchDesigner Tutorials](https://matthewragan.com/teaching-resources/touchdesigner/ "Tutorials")
+- [TouchDesigner Wiki](http://derivative.ca/wiki099/index.php?title=Main_Page "Wiki")
+- [TouchDesigner Forum](https://www.derivative.ca/Forum/ "Forum")
+- [TouchDesigner Tutorials](https://matthewragan.com/teaching-resources/touchdesigner/ "Tutorials")
